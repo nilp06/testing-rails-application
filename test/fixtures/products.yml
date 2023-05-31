@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  product_name: MyString
+  product_name: camera
   price: 1
-  description: MyText
+  description: canon 5d camera
+  user: one
 
 two:
-  product_name: MyString
+  product_name: washing machine
   price: 1
-  description: MyText
+  description: samsung waching machine
+  user: one
