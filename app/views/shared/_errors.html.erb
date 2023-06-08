@@ -1,5 +1,6 @@
 <% if obj.errors.any? %>
-  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <div class="alert alert-danger alert-dismissible fade show" id="errors" role="alert">
+    <h1>Errors</h1>
     <strong><%= pluralize(obj.errors.count, "error") %> found.</strong>
     <ul>
       <% obj.errors.each do |error| %>
