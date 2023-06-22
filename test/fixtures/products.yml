@@ -1,0 +1,43 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_name: ~
+  price: 600
+  description: "description of test product1"
+  user: one
+
+two:
+  product_name: "test_product2"
+  price: ~
+  description: "description of test product3"
+  user: two
+
+three:
+  product_name: "test_product3"
+  price: 6000
+  description: ~
+  user: one
+
+four:
+  product_name: "tt"
+  price: 7000
+  description: "description of test product4."
+  user: two
+
+five:
+  product_name: "test_product5"
+  price: 100
+  description: "description of test product5."
+  user: two
+
+six:
+  product_name: "test_product6"
+  price: 8000
+  description: "desc"
+  user: one
+
+seven:
+  product_name: "test_product7"
+  price: 9000
+  description: "description of test product 7"
+  user: one
